@@ -1,17 +1,22 @@
 package com.yedam.java.emp.service;
 
+import java.util.Date;
+
 import lombok.Data;
 
 @Data
 public class EmpVO {
 
-	String employee_id;
-	String first_name;
-	String last_name;
-	String email;
-	String hire_date;
-	String job_id;
-	String department_id;
-	String salary;
+	private int employeeId;
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String phoneNumber;
+	private Date hireDate;
+	private String jobId;
+	private int salary;
+	private double commissionPct;
+	private int managerId;
+	private int departmentId;
 
 }
